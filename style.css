@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 16px;
+}
+.wrapper {
+    width: 60vw;
+    margin: 5vh auto;
+    text-align: center;
+}
+input[type="text"] {
+    display: block;
+    line-height: 1.5em;
+    margin: 1vw auto;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+}
+button {
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5%;
+    background: rgb(233, 233, 92);
+    transition: all 0.3s;
+}
+button:hover {
+    background-color: rgb(251, 251, 36);
+    cursor: pointer;
+}
+.result {
+    margin-top: 2vh;
+}
+.result h2 {
+    font-size: 1.5em;
+}
