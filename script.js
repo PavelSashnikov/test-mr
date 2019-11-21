@@ -23,7 +23,7 @@ controls.addEventListener('click', (event) => {
 })
 
 function fetchData() {
-    const url = 'https://www.mrsoft.by/data.json';
+    const url = 'http://localhost:3000/data.json';
     return fetch(url)
         .then(resp => resp.json())
 }
